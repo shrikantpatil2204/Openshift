@@ -23,3 +23,7 @@ spec:
         env:
          - name: POSTGRES_PASSWORD
            value: centos
+         - name: POSTGRES_DB
+           value: gogs
+        resources: {}
+status: {}
